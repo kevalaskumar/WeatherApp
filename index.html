@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <form id="weather-form">
+            <input type="text" id="city" placeholder="Enter city" required>
+            <button type="submit">Search</button>
+        </form>
+        <div id="weather-results">
+            <h2 id="city-name"></h2>
+            <p id="weather-description"></p>
+            <p id="temperature"></p>
+        </div> 
+    </div>
+  
+  
+   <!-- Info button -->
+    <button class="info-button" id="info-button">!</button>
+  
+    <!-- Modal for description -->
+    <div class="modal" id="info-modal">
+        <div class="modal-content">
+            <span class="close-button" id="close-button">&times;</span>
+          <p>Created by <span class= "author-name"> Kevalas Kumar</span></p>
+          <h2>Info</h2>
+            <p>The Product Manager Accelerator Program is designed to support PM professionals through every stage of their career. 
+              From students looking for entry-level jobs to Directors looking to take on a leadership role, our program has helped over 
+              hundreds of students fulfill their career aspirations.Our Product Manager Accelerator community are ambitious and committed. 
+              Through our program they have learnt, honed and developed new PM and leadership skills, giving them a strong foundation for their future endeavours.</p>
+        </div>
+    </div>
+  
+  
+    <script src="script.js"></script>
+</body>
+</html>
